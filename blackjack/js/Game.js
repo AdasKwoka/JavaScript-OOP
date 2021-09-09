@@ -95,7 +95,7 @@ class Game {
 const table = new Table(document.getElementById('dealersCards'), document.getElementById('playersCards'));
 const messageBox = new Message(document.getElementById('message'));
 
-const player = new Player('Kacper');
+const player = new Player('Adam');
 const game = new Game({
 	hitButton: document.getElementById('hit'),
 	standButton: document.getElementById('stand'),
